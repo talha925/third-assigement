@@ -1,0 +1,89 @@
+(1)
+void main(){
+final List<String> _ballList = ["Ball ()", "Ball ()", "Ball ()", "Ball ()", "Ball ()",];
+  for (var i = 1; i == 1; i ++){
+    print(_ballList[i]);
+}
+(2)
+void main(){
+ List <int> lst1 = [1,2,3,4,5,6,7];
+   List <int> lst2 = [3,5,6,7,9,10];
+   var difference = lst1.toSet().difference(lst2.toSet()).toList();
+ print(difference.toString());
+}
+
+(3)
+void main(){
+List<int> a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+ int i = 0;
+  List<int> l = [];
+
+  for (var e in a) {
+    if (++i % 2 == 0) {
+      l.add(e);
+    }
+  }
+  print(l);
+}
+
+(4)
+void main(){
+var a = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97];
+  if(a == a){
+    print("The above list is taking prime numbers");
+  }else
+    print("The above list is not prime numbers");
+} 
+
+(5)
+void main(){
+
+  var number = 7;
+  for(var i=1; i<=15; i++){
+    print("7 x $i = ${7*i}");
+}
+
+(6)
+void main(){
+List<String> fruits = ["Apple", "Banana","Mango","Orange", "Strawberry"];
+  for(var i =0; i < fruits.length; i++){
+    print(fruits[i]);
+}
+
+(7)
+void main(){
+int a = 5;
+  for(int a =1; a <= 100; a++){
+    print("5 x $a = ${5*a}");
+}
+
+(8)
+void main(){
+double temperature1 = 37.01;
+  double convert1 = (temperature1 * 9 / 5) + 32;
+  print("$convert1 in Fahrenheit");
+  
+  double temperature2 = -3;
+  double convert2 = (temperature2 - 32) * 5 / 9;
+  print("$convert2 in Celcius");
+}
+
+(9)
+void main() {
+  var first_number = 25;
+ var second_number = 3;
+ var operator = "%";
+  
+        if(operator == "%"){
+          print(first_number % second_number);
+        }
+      }
+
+(10)
+void main(){
+var vowel = ["a"];
+     if(vowel != vowel){
+       print("false");
+     }else
+       print("true");
+}
